@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="flinkProject:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3be51ce-c074-461a-8c59-555212ab4c24" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="192" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="flinkProject" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../program/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Work\program\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="add-dependencies-for-IDEA" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WTFE3kW4xqkT9W3aVzUCmtVBx0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OC_CODE" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="unit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Security">
+    <configuration name="GetIP" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit.GetIP" />
+      <module name="com.zf.study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Security" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit.Security" />
+      <module name="com.zf.study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketWindowWordCount" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_73\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="flinkProject.SocketWindowWordCount" />
+      <module name="com.zf.study" />
+      <option name="PROGRAM_PARAMETERS" value="--port 9000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flinkProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flinkProject.WordCountJava" />
+      <module name="com.zf.study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flinkProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.zf.study [install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map>
+                <entry key="add-dependencies-for-IDEA" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/com.zf.study" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Security" />
+        <item itemvalue="Application.WordCountJava" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3be51ce-c074-461a-8c59-555212ab4c24" name="Default Changelist" comment="" />
+      <created>1579165562608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579165562608</updated>
+      <workItem from="1579165563749" duration="1365000" />
+      <workItem from="1579230936981" duration="133000" />
+      <workItem from="1579416155148" duration="602000" />
+      <workItem from="1579485761074" duration="7802000" />
+      <workItem from="1580181728441" duration="2035000" />
+      <workItem from="1580291762778" duration="6702000" />
+      <workItem from="1580304018724" duration="269000" />
+      <workItem from="1580349462473" duration="18535000" />
+      <workItem from="1580544811972" duration="13771000" />
+      <workItem from="1580627606761" duration="7365000" />
+      <workItem from="1580869041246" duration="9057000" />
+      <workItem from="1581057184368" duration="603000" />
+      <workItem from="1581298802694" duration="4097000" />
+      <workItem from="1581420388896" duration="1132000" />
+      <workItem from="1581421555566" duration="4753000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="27" key="#Inspections" timestamp="1581424520251">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="275" y="27" key="#Inspections/0.0.1366.737@0.0.1366.737" timestamp="1581424520251" />
+    <state x="275" y="27" key="#Project_Structure" timestamp="1579165647810">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="275" y="27" key="#Project_Structure/0.0.1366.737@0.0.1366.737" timestamp="1579165647810" />
+    <state x="565" y="37" key="#SocketWindowWordCount" timestamp="1580363845508">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="565" y="37" key="#SocketWindowWordCount/0.0.1366.737@0.0.1366.737" timestamp="1580363845508" />
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580300183797">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.737@0.0.1366.737" timestamp="1580300183797" />
+    <state x="441" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581423788475">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="441" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.737@0.0.1366.737" timestamp="1581423788475" />
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1579487503870">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.737@0.0.1366.737" timestamp="1579487503870" />
+    <state x="488" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580360555606">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="488" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.737@0.0.1366.737" timestamp="1580360555606" />
+    <state x="303" y="47" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1579487004854">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="303" y="47" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.737@0.0.1366.737" timestamp="1579487004854" />
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581420526838">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.737@0.0.1366.737" timestamp="1581420526838" />
+    <state width="418" height="466" key="DebuggerActiveHint" timestamp="1580301491716">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="418" height="466" key="DebuggerActiveHint/0.0.1366.737@0.0.1366.737" timestamp="1580301491716" />
+    <state x="417" y="130" key="EnvironmentVariablesDialog" timestamp="1580300161227">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="417" y="130" key="EnvironmentVariablesDialog/0.0.1366.737@0.0.1366.737" timestamp="1580300161227" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1581426387879">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.737@0.0.1366.737" timestamp="1581426387879" />
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1581426389373">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.737@0.0.1366.737" timestamp="1581426389373" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1581426389372">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.737@0.0.1366.737" timestamp="1581426389372" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1581426389372">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.737@0.0.1366.737" timestamp="1581426389372" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1581426389373">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.737@0.0.1366.737" timestamp="1581426389373" />
+    <state width="1323" height="226" key="GridCell.Tab.1.bottom" timestamp="1580643515463">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.bottom/0.0.1366.737@0.0.1366.737" timestamp="1580643515463" />
+    <state width="1323" height="226" key="GridCell.Tab.1.center" timestamp="1580643515463">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.center/0.0.1366.737@0.0.1366.737" timestamp="1580643515463" />
+    <state width="1323" height="226" key="GridCell.Tab.1.left" timestamp="1580643515463">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.left/0.0.1366.737@0.0.1366.737" timestamp="1580643515463" />
+    <state width="1323" height="226" key="GridCell.Tab.1.right" timestamp="1580643515463">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.right/0.0.1366.737@0.0.1366.737" timestamp="1580643515463" />
+    <state x="213" y="24" key="Maven.ArtifactSearchDialog" timestamp="1581421761540">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="213" y="24" key="Maven.ArtifactSearchDialog/0.0.1366.737@0.0.1366.737" timestamp="1581421761540" />
+    <state x="238" y="0" key="SettingsEditor" timestamp="1581421916069">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="238" y="0" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1581421916069" />
+    <state x="363" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1581421558581">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="363" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.737@0.0.1366.737" timestamp="1581421558581" />
+    <state x="223" y="105" width="897" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580638187858">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="223" y="105" width="897" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.737@0.0.1366.737" timestamp="1580638187858" />
+    <state x="57" y="64" key="new project wizard" timestamp="1579231068324">
+      <screen x="0" y="0" width="1366" height="737" />
+    </state>
+    <state x="57" y="64" key="new project wizard/0.0.1366.737@0.0.1366.737" timestamp="1579231068324" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flinkProject$SocketWindowWordCount.ic" NAME="SocketWindowWordCount Coverage Results" MODIFIED="1580300085874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>flinkProject.*</FILTER>
+    </SUITE>
+  </component>
+</project>
