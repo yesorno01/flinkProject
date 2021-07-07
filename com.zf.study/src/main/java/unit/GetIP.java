@@ -6,8 +6,8 @@ import java.net.UnknownHostException;
 public class GetIP {
     public static void main(String[] args) {
         String strIP = "";
-        String hostname ;
-        GetIP getIP  = new GetIP();
+        String hostname;
+        GetIP getIP = new GetIP();
 
 //        hostname = "www.runoob.com";
 //        hostname = "dn282";
@@ -16,29 +16,27 @@ public class GetIP {
 
         try {
             strIP = getIP.getIPOrHostName(hostname);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.exit(2);
         }
         System.out.println("strIP = " + strIP);
         System.exit(0);
     }
 
-    public  String getIPOrHostName(String hostnameOrIP){
+    public String getIPOrHostName(String hostnameOrIP) {
         InetAddress address;
         String returnStr = null;
-        GetIP getIP  = new GetIP();
+        GetIP getIP = new GetIP();
 
         try {
             address = InetAddress.getByName(hostnameOrIP);
 
-            if(getIP.isIPAddressByRegex(hostnameOrIP)){
+            if (getIP.isIPAddressByRegex(hostnameOrIP)) {
                 returnStr = address.getHostName();
-            }else{
+            } else {
                 returnStr = address.getHostAddress();
             }
-        }
-        catch (UnknownHostException e) {
+        } catch (UnknownHostException e) {
             System.exit(2);
         }
         return returnStr;

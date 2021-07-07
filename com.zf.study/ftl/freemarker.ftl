@@ -124,7 +124,7 @@ ${testNull!}
 -----------------------
 
 
-宏定义  页面写逻辑判断
+宏定义 页面写逻辑判断
 <#macro table pageNo>
     ${pageNo}
 </#macro>

@@ -22,7 +22,7 @@ public class FreemarkerTest {
 
         Map<Object, Object> data = new HashMap<Object, Object>();
         data.put("userName", "hello world");
-        data.put("list", Arrays.asList("entity1","entity2"));
+        data.put("list", Arrays.asList("entity1", "entity2"));
         Writer writer = new PrintWriter(System.out);
 
         template.process(data, writer);

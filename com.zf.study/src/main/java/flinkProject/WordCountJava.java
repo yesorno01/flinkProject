@@ -22,6 +22,7 @@ public class WordCountJava {
         //打印
         wordCounts.print();
     }
+
     //分割字符串的方法
     public static class LineSplitter implements FlatMapFunction<String, Tuple2<String, Integer>> {
         @Override
