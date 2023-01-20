@@ -19,30 +19,30 @@ public class wordCount {
     public static void main(String[] args) throws Exception {
 
 
-        //框架4步法：
+        //flink程序，框架五步法：
         //1、创建编程入口环境env（固定）
         //批计算环境变量:ExecutionEnvironment，后期官a方统一流批一体使用StreamExecutionEnvironment
 //        ExecutionEnvironment varEnv = ExecutionEnvironment.getExecutionEnvironment();
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
+
         /**
          * 本地运行时程序默认并行度取决于cpu逻辑核数
          * 可以通过setParallelism修改并行度，也可以通过提交程序是参数指定并行度
          */
-        env.setParallelism(1);
+        env.setParallelism(2);
 
         //2、通过source算子，映射数据源元为一个dataStream（数据流）
-        //练习是用socket流映射一个dataStream
-        //[hadoop@node36136 ~]$ nc -lk 9000
+        //练习是用socket（nc）流映射一个dataStream [hadoop@node36136 ~]$ nc -lk 9000
         DataStreamSource<String> source = env.socketTextStream("10.19.36.136", 9000);
 
 
         //3、通过算子对数据流进行计算逻辑
-        //切单词、按单词分组、统计单词，Tuple-元组，flink为了跟scala统一，封装了元组类型Tuple，实际上就是多元数组，从Tuple0-25
+        //切单词、按单词分组、统计单词，其中：Tuple-元组，flink为了跟scala统一，封装了元组类型Tuple，实际上就是多元数组，从Tuple0-25
+        //切词
         SingleOutputStreamOperator <Tuple2<String, Integer>> words = source.flatMap(new FlatMapFunction<String, Tuple2<String, Integer>>() {
             @Override
             public void flatMap(String s, Collector<Tuple2<String, Integer>> collector) throws Exception {
-
                 //切单词
                 String[] split = s.split("\\s+");
                 for (String word : split) {
@@ -56,7 +56,7 @@ public class wordCount {
         KeyedStream<Tuple2<String, Integer>, String> keyed = words.keyBy(new KeySelector<Tuple2<String, Integer>, String>() {
             @Override
             public String getKey(Tuple2<String, Integer> tuple2) throws Exception {
-                //返回tuplew2按谁分组，此刻按入参的第一个String，单词分组
+                //返回tuple2按那个单词分组，此刻按入参的第一个String类型的单词分组
                 return tuple2.f0;
             }
         });
@@ -69,6 +69,7 @@ public class wordCount {
         DataStreamSink<Tuple2<String, Integer>> wordPrint = resultStream.print();
 
         //5、触发程序提交运行
+        //重flink1.10以后的程序执行需要在pom里引入flink-client包
         env.execute();
 
     }

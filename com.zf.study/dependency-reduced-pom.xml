@@ -7,7 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <url>http://www.myorganization.org</url>
   <build>
-    <finalName>SocketWindowWordCount</finalName>
+    <finalName>FlinkObject</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -89,7 +89,7 @@
               </filters>
               <transformers>
                 <transformer>
-                  <mainClass>flinkProject.SocketWindowWordCount</mainClass>
+                  <mainClass>flinkProject.WordCountJava</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -114,6 +114,12 @@
           <version>1.14.4</version>
           <scope>compile</scope>
         </dependency>
+        <dependency>
+          <groupId>org.apache.flink</groupId>
+          <artifactId>flink-clients_2.11</artifactId>
+          <version>1.14.4</version>
+          <scope>compile</scope>
+        </dependency>
       </dependencies>
     </profile>
   </profiles>
@@ -129,18 +135,6 @@
     </repository>
   </repositories>
   <dependencies>
-    <dependency>
-      <groupId>org.apache.flink</groupId>
-      <artifactId>flink-clients_2.11</artifactId>
-      <version>1.14.4</version>
-      <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>flink-optimizer</artifactId>
-          <groupId>org.apache.flink</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
