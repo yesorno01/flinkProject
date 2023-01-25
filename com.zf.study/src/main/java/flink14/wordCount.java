@@ -39,7 +39,7 @@ public class wordCount {
 
         //3、通过算子对数据流进行计算逻辑
         //切单词、按单词分组、统计单词，其中：Tuple-元组，flink为了跟scala统一，封装了元组类型Tuple，实际上就是多元数组，从Tuple0-25
-        //切词
+        //切词 匿名内部类
         SingleOutputStreamOperator <Tuple2<String, Integer>> words = source.flatMap(new FlatMapFunction<String, Tuple2<String, Integer>>() {
             @Override
             public void flatMap(String s, Collector<Tuple2<String, Integer>> collector) throws Exception {

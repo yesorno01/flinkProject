@@ -10,13 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3be51ce-c074-461a-8c59-555212ab4c24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.zf.study/src/main/data/wc/input/word.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.zf.study/src/main/java/flink14/wordCountBatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.zf.study/src/main/java/flink14/wordCountLamda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_12_0_7_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_14_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_12_1_14_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_scala_2_11_1_14_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_scala_2_12_1_14_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_14_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_12_1_14_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_12_1_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_12_7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.zf.study/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.zf.study/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.zf.study/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.zf.study/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.zf.study/src/main/java/flink14/wordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zf.study/src/main/java/flink14/wordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zf.study/target/SocketWindowWordCount.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zf.study/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com.zf.study/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zf.study/target/original-SocketWindowWordCount.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +100,12 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="unit" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\A_asiaWork\GitProjectM\flinkProject\com.zf.study" />
+      <recent name="D:\A_asiaWork\GitProjectM\flinkProject\com.zf.study\src\main" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.wordCount">
+  <component name="RunManager" selected="Application.wordCountBatch">
     <configuration name="GetIP" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unit.GetIP" />
       <module name="com.zf.study" />
@@ -144,6 +158,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="wordCountBatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flink14.wordCountBatch" />
+      <module name="com.zf.study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flink14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.zf.study [install]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -178,9 +216,11 @@
       <item itemvalue="Application.Security" />
       <item itemvalue="Application.WordCountJava" />
       <item itemvalue="Maven.com.zf.study [install]" />
+      <item itemvalue="Application.wordCountBatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.wordCountBatch" />
         <item itemvalue="Application.Security" />
         <item itemvalue="Application.WordCountJava" />
       </list>
@@ -228,7 +268,9 @@
       <workItem from="1662345398010" duration="395000" />
       <workItem from="1674048271830" duration="1509000" />
       <workItem from="1674194761405" duration="7997000" />
-      <workItem from="1674209890250" duration="4028000" />
+      <workItem from="1674209890250" duration="6126000" />
+      <workItem from="1674288188835" duration="1837000" />
+      <workItem from="1674614632390" duration="6896000" />
     </task>
     <task id="LOCAL-00001" summary="版本提交">
       <created>1674209615738</created>
@@ -237,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674209615738</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="flink框架五步法&#10;1，创建环境参数env&#10;2，将数据源映射重dataStream&#10;3，用算子写业务逻辑&#10;4，实现sink算子，定义输出类型&#10;5，调用env执行程序">
+      <created>1674220178079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674220178079</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +306,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="版本提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="版本提交" />
+    <MESSAGE value="flink框架五步法&#10;1，创建环境参数env&#10;2，将数据源映射重dataStream&#10;3，用算子写业务逻辑&#10;4，实现sink算子，定义输出类型&#10;5，调用env执行程序" />
+    <option name="LAST_COMMIT_MESSAGE" value="flink框架五步法&#10;1，创建环境参数env&#10;2，将数据源映射重dataStream&#10;3，用算子写业务逻辑&#10;4，实现sink算子，定义输出类型&#10;5，调用env执行程序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
