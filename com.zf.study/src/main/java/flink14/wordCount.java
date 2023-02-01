@@ -18,7 +18,6 @@ public class wordCount {
 
     public static void main(String[] args) throws Exception {
 
-
         //flink程序，框架五步法：
         //1、创建编程入口环境env（固定）
         //批计算环境变量:ExecutionEnvironment，后期官a方统一流批一体使用StreamExecutionEnvironment
@@ -31,6 +30,7 @@ public class wordCount {
          * 可以通过setParallelism修改并行度，也可以通过提交程序是参数指定并行度
          */
         env.setParallelism(2);
+
 
         //2、通过source算子，映射数据源元为一个dataStream（数据流）
         //练习是用socket（nc）流映射一个dataStream [hadoop@node36136 ~]$ nc -lk 9000
@@ -64,9 +64,11 @@ public class wordCount {
         //聚合统计 keyed.sum(1);也可以，是tuple2的角标1
         SingleOutputStreamOperator<Tuple2<String, Integer>> resultStream = keyed.sum("f1");
 
+
         //4、通过sink算子将结果输出
         //输出屏幕
         DataStreamSink<Tuple2<String, Integer>> wordPrint = resultStream.print();
+
 
         //5、触发程序提交运行
         //重flink1.10以后的程序执行需要在pom里引入flink-client包

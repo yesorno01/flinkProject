@@ -13,6 +13,6 @@ public class wordCountLamda {
         //批计算处理环境
         ExecutionEnvironment envBatch = ExecutionEnvironment.getExecutionEnvironment();
 
-
+        //未完待续
     }
 }
